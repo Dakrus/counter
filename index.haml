@@ -1,0 +1,31 @@
+%html
+  %head{lang:"en"}
+    %meta{charset:"UTF-8"}
+    %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}/
+    %link{href:"style.css", rel:"stylesheet"}
+    %body
+      #header
+        %p some type of calc
+      .top
+        %input#name{placeholder:"name"}
+        %input#price{placeholder:"price"}
+        %input#price2{placeholder:"amount"}
+        %button.add ADD
+        %button.btn
+      .counter
+        .index
+          .name
+            %P Name
+          .price
+            %p Price x1
+          .amount
+            %p Amount
+          .sum
+            %p Sum
+        .rows
+
+        %P.total
+      %script{src:"vendor/jquery.js"}
+      %script{src:"https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"}
+      %script{src:"main.js"}
+      %script{src:"main2.js"}
